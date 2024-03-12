@@ -1,0 +1,17 @@
+potionEffects:
+  POISON:
+    amplifier: 2
+    duration: 300
+  SLOW:
+    amplifier: 2
+    duration: 300
+  SLOW_DIGGING:
+    amplifier: 2
+    duration: 300
+  WEAKNESS:
+    amplifier: 2
+    duration: 300
+  WITHER:
+    amplifier: 2
+    duration: 300
+eat-message: '&cYou have consumed pork! &lHaram!'

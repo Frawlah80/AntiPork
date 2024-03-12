@@ -1,0 +1,19 @@
+name: AntiPork
+main: me.frawlah.antipork.AntiPork
+version: '${project.version}'
+api-version: '1.20'
+author: Frawlah
+description: Gives potion effects on eating pork
+commands:
+  antiporkreload:
+    description: Reload the AntiPork configuration
+    usage: /antiporkreload
+    permission: antipork.reload
+  antiporkrel:
+    description: Alias for /antiporkreload
+    usage: /antiporkrel
+    permission: antipork.reload
+permissions:
+  antipork.reload:
+    description: Allows reloading the AntiPork configuration
+    default: op
